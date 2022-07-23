@@ -1,0 +1,36 @@
+/* ========================================================== */
+/* Reset Browsers Default style */
+/* ========================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ========================================================== */
+/* Utilities */
+/* ========================================================== */
+/* Centered text */
+.centered-text{
+    text-align: center;
+}
+/* Centered element */
+.centered-element{
+    margin: 0 auto;
+}
+/* flex-box */
+.flexed{
+    display: flex;
+}
+.flexed-x{
+    display: flex;
+    align-items: center;
+}
+.flexed-y{
+    display: flex;
+    justify-content: center;
+}
+.flexed-xy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
